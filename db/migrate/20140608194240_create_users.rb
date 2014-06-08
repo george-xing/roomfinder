@@ -6,6 +6,9 @@ class CreateUsers < ActiveRecord::Migration
       t.string :provider
       t.string :uid
 
+      t.string :token
+      t.datetime :token_expires_at
+
       t.timestamps
     end
   end

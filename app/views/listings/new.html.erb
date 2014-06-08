@@ -1,0 +1,9 @@
+<h3>Edit Fields</h3>
+
+<%= simple_form_for @listing do |f| %>
+  <%= f.input :city %>
+  <%= f.input :state %>
+  <%= f.input :country %>
+  <%= f.input :description %>
+  <%= f.button :submit %>
+<% end %>
